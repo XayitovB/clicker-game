@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.counter-text{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    position: relative;
+    left: -15px;
+}
+.coin{
+    width: 100%;
+    height: 70%;
+}
+.coin img{
+    width: 80%;
+    position: absolute;
+    left: 30px;
+}
+.coin img:active{
+    transform: skew(3deg, 0deg);
+}

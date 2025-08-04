@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="counter-text">
+            <h1 class="matn">0</h1>
+        </div>
+        <div class="coin">
+            <img class="rasm"  src="./pngwing.com.png" alt="">
+        </div>
+    </div>
+
+    <script> 
+        document.addEventListener("DOMContentLoaded", ()=>{
+            let n = 0
+            document.querySelector(".rasm").addEventListener("click", ()=>{
+                document.querySelector(".matn").innerHTML = n
+                n+=1
+            })
+        })
+    </script>
+</body>
+</html>
